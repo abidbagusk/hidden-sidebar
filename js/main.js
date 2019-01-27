@@ -10,6 +10,7 @@ const content = document.querySelector('.content');
 const sidenav = document.getElementById('mySidenav');
 const menu = document.getElementById('main');
 
+
 function openNav() {
     // Sidenav will span 300px width
     sidenav.style.width = '300px';
@@ -33,6 +34,7 @@ content.addEventListener('click', function () {
 
 
 
+
 $(document).ready(function () {
     $('#subnav-gallery').click(function (e) {
         $('#toggle-subnav-gallery').slideToggle(400);
@@ -41,5 +43,14 @@ $(document).ready(function () {
     $('#subnav-jobs').click(function (e) {
         $('#toggle-subnav-jobs').slideToggle(400);
         e.preventDefault();
+    });
+    // call cek dark-mode
+    $('#check').click(function () {
+        var dark = $('#check').val();
+        if ($('#check').is(':checked')) {
+            $('body').addClass('dark-mode');
+        } else {
+            $('body').removeClass('dark-mode');
+        }
     });
 });
