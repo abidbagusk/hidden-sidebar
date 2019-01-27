@@ -3,6 +3,7 @@ sans-serif;
 $secondary-font : 'Roboto Mono',
 monspace;
 $main-color : #fcfcfc;
+$text-color : #333;
 
 // Add style to sidenav
 .sidenav {
@@ -20,5 +21,13 @@ $main-color : #fcfcfc;
     .wrapper-list {
         list-style-type: none;
         padding: 0px;
+
+        #welcome-title {
+            font-family: $secondary-font;
+            text-decoration: none;
+            color: $text-color;
+            font-size: 12px;
+            letter-spacing: .1em;
+        }
     }
 }

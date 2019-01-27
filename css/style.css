@@ -12,5 +12,12 @@
   list-style-type: none;
   padding: 0px;
 }
+.sidenav .wrapper-list #welcome-title {
+  font-family: "Roboto Mono", monspace;
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
 
 /*# sourceMappingURL=style.css.map */
