@@ -4,6 +4,7 @@ $secondary-font : 'Roboto Mono',
 monspace;
 $main-color : #fcfcfc;
 $text-color : #333;
+$bright-color : #eee;
 
 // Add style to sidenav
 .sidenav {
@@ -39,6 +40,12 @@ $text-color : #333;
             margin-left: 50px;
             letter-spacing: .1em;
             color: $text-color;
+        }
+
+        li {
+            padding: 20px 30px;
+            transition: .5s;
+            border-bottom: .5px solid $bright-color;
         }
     }
 }

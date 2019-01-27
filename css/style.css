@@ -29,5 +29,10 @@
   letter-spacing: 0.1em;
   color: #333;
 }
+.sidenav .wrapper-list li {
+  padding: 20px 30px;
+  transition: 0.5s;
+  border-bottom: 0.5px solid #eee;
+}
 
 /*# sourceMappingURL=style.css.map */
