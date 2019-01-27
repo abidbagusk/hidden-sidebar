@@ -12,6 +12,7 @@
 .sidenav .wrapper-list {
   list-style-type: none;
   padding: 0px;
+  transition: 0.5s ease-out;
 }
 .sidenav .wrapper-list #welcome-title {
   font-family: "Roboto Mono", monspace;

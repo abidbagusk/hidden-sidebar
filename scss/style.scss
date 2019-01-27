@@ -23,6 +23,7 @@ $dark-color : #000;
     .wrapper-list {
         list-style-type: none;
         padding: 0px;
+        transition: 0.5s ease-out;
 
         #welcome-title {
             font-family: $secondary-font;
