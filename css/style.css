@@ -77,6 +77,11 @@
 #main .navbar-search {
   padding-top: 15px;
 }
+@media screen and (max-width: 600px) {
+  #main .navbar-search {
+    display: none;
+  }
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {

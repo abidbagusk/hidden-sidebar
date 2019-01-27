@@ -100,6 +100,10 @@ $dark-color : #000;
 
     .navbar-search {
         padding-top: 15px;
+
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
 }
 
