@@ -1,0 +1,18 @@
+$main-font : 'Titillium Web',
+sans-serif;
+$secondary-font : 'Roboto Mono',
+monspace;
+$main-color : #fcfcfc;
+
+// Add style to sidenav
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $main-color;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+}
