@@ -50,5 +50,8 @@
 .sidenav .wrapper-list #list-active {
   color: orange;
 }
+.sidenav .wrapper-list .badge-custom-secondary {
+  background-color: orange;
+}
 
 /*# sourceMappingURL=style.css.map */
