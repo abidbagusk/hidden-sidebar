@@ -60,6 +60,10 @@
 .sidenav .wrapper-list .sub-wrapper-list {
   display: none;
 }
+.sidenav .wrapper-list #subnav-gallery,
+.sidenav .wrapper-list #subnav-jobs {
+  cursor: pointer;
+}
 
 #main {
   transition: margin-left 0.5s;

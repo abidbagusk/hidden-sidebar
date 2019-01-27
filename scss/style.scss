@@ -80,6 +80,11 @@ $dark-color : #000;
         .sub-wrapper-list {
             display: none;
         }
+
+        #subnav-gallery,
+        #subnav-jobs {
+            cursor: pointer;
+        }
     }
 }
 
