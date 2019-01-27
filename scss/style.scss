@@ -7,7 +7,7 @@ $main-color : #fcfcfc;
 // Add style to sidenav
 .sidenav {
     height: 100%;
-    width: 0;
+    // width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -15,4 +15,10 @@ $main-color : #fcfcfc;
     background-color: $main-color;
     overflow-x: hidden;
     transition: 0.5s ease-in-out;
+
+    // Add style to wrapper-list
+    .wrapper-list {
+        list-style-type: none;
+        padding: 0px;
+    }
 }

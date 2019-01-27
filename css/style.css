@@ -1,6 +1,5 @@
 .sidenav {
   height: 100%;
-  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -8,6 +7,10 @@
   background-color: #fcfcfc;
   overflow-x: hidden;
   transition: 0.5s ease-in-out;
+}
+.sidenav .wrapper-list {
+  list-style-type: none;
+  padding: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
