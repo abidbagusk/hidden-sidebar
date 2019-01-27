@@ -40,5 +40,8 @@
   color: #000;
   font-weight: bold;
 }
+.sidenav .wrapper-list a li {
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -54,6 +54,11 @@ $dark-color : #000;
             text-decoration: none;
             color: $dark-color;
             font-weight: bold;
+
+            li {
+                list-style-type: none;
+            }
         }
+
     }
 }
