@@ -17,7 +17,11 @@ function closeNav() {
 
 $(document).ready(function () {
     $('#subnav-gallery').click(function (e) {
-        $('#toggle-subnav-gallery').slideDown(400);
+        $('#toggle-subnav-gallery').slideToggle(400);
+        e.preventDefault();
+    });
+    $('#subnav-jobs').click(function (e) {
+        $('#toggle-subnav-jobs').slideToggle(400);
         e.preventDefault();
     });
 });
