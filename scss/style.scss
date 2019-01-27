@@ -78,3 +78,17 @@ $dark-color : #000;
         }
     }
 }
+
+#main {
+    transition: margin-left .5s;
+
+    .menu {
+        padding-left: 15px;
+        font-weight: bold;
+        font-family: $secondary-font;
+    }
+
+    .navbar-search {
+        padding-top: 15px;
+    }
+}

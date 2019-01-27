@@ -58,4 +58,16 @@
   background-color: orangered;
 }
 
+#main {
+  transition: margin-left 0.5s;
+}
+#main .menu {
+  padding-left: 15px;
+  font-weight: bold;
+  font-family: "Roboto Mono", monspace;
+}
+#main .navbar-search {
+  padding-top: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
