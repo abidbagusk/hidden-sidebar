@@ -14,3 +14,9 @@ function closeNav() {
     // Navbar will also back to norma width
     menu.style.marginLeft = '0';
 }
+
+$(document).ready(function () {
+    $('#subnav-gallery').click(function () {
+        $('#toggle-subnav-gallery').slideDown(400);
+    });
+});

@@ -57,6 +57,9 @@
 .sidenav .wrapper-list .badge-custom-ambient {
   background-color: orangered;
 }
+.sidenav .wrapper-list .sub-wrapper-list {
+  display: none;
+}
 
 #main {
   transition: margin-left 0.5s;
