@@ -139,8 +139,19 @@
 .dark-mode .wrapper-list,
 .dark-mode .uk-navbar-container,
 .dark-mode .content {
-  background: #474444;
+  background: #2e2d2d;
   transition: 0.4s ease-in-out;
+}
+.dark-mode .wrapper-list li {
+  color: #eee;
+  border-bottom: 0.5px solid #333;
+}
+.dark-mode .wrapper-list li a {
+  color: #eee !important;
+}
+.dark-mode .wrapper-list a:hover li {
+  background-color: #000;
+  color: #eee;
 }
 
 /* Content */

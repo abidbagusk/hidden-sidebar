@@ -178,8 +178,25 @@ $dark-color : #000;
     .wrapper-list,
     .uk-navbar-container,
     .content {
-        background: #474444;
+        background: #2e2d2d;
         transition: 0.4s ease-in-out;
+    }
+
+    .wrapper-list {
+        li {
+            color: $bright-color;
+            border-bottom: .5px solid #333;
+
+            a {
+                color: $bright-color !important;
+            }
+        }
+
+        a:hover li {
+            background-color: #000;
+            color: $bright-color;
+
+        }
     }
 }
 
