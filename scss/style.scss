@@ -176,9 +176,10 @@ $dark-color : #000;
 .dark-mode {
 
     .wrapper-list,
-    #main,
+    .uk-navbar-container,
     .content {
-        background: $dark-color;
+        background: #474444;
+        transition: 0.4s ease-in-out;
     }
 }
 
