@@ -16,7 +16,8 @@ function closeNav() {
 }
 
 $(document).ready(function () {
-    $('#subnav-gallery').click(function () {
+    $('#subnav-gallery').click(function (e) {
         $('#toggle-subnav-gallery').slideDown(400);
+        e.preventDefault();
     });
 });
