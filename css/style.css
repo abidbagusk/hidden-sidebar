@@ -47,5 +47,8 @@
   background: #eee;
   transition: 0.5s;
 }
+.sidenav .wrapper-list #list-active {
+  color: orange;
+}
 
 /*# sourceMappingURL=style.css.map */
