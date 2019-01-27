@@ -1,3 +1,12 @@
+/*
+
+    In here, 
+    I deliberately used many ways to use javascript 
+    using both jquery and DOM selection
+
+*/
+
+const content = document.querySelector('.content');
 const sidenav = document.getElementById('mySidenav');
 const menu = document.getElementById('main');
 
@@ -14,6 +23,15 @@ function closeNav() {
     // Navbar will also back to norma width
     menu.style.marginLeft = '0';
 }
+
+content.addEventListener('click', function () {
+    // Sidenav will back to normal width and hide the sidebar
+    sidenav.style.width = '0';
+    // Navbar will also back to norma width
+    menu.style.marginLeft = '0';
+});
+
+
 
 $(document).ready(function () {
     $('#subnav-gallery').click(function (e) {
