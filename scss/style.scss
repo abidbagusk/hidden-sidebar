@@ -29,5 +29,16 @@ $text-color : #333;
             font-size: 12px;
             letter-spacing: .1em;
         }
+
+        #closebtn {
+            position: absolute;
+            font-family: $secondary-font;
+            top: 25px;
+            right: 25px;
+            font-size: 12px;
+            margin-left: 50px;
+            letter-spacing: .1em;
+            color: $text-color;
+        }
     }
 }
