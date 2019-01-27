@@ -34,5 +34,11 @@
   transition: 0.5s;
   border-bottom: 0.5px solid #eee;
 }
+.sidenav .wrapper-list a {
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */

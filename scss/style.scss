@@ -5,6 +5,7 @@ monspace;
 $main-color : #fcfcfc;
 $text-color : #333;
 $bright-color : #eee;
+$dark-color : #000;
 
 // Add style to sidenav
 .sidenav {
@@ -46,6 +47,13 @@ $bright-color : #eee;
             padding: 20px 30px;
             transition: .5s;
             border-bottom: .5px solid $bright-color;
+        }
+
+        a {
+            font-family: $main-font;
+            text-decoration: none;
+            color: $dark-color;
+            font-weight: bold;
         }
     }
 }
