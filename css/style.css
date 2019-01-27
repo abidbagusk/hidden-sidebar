@@ -43,5 +43,9 @@
 .sidenav .wrapper-list a li {
   list-style-type: none;
 }
+.sidenav .wrapper-list a:hover li {
+  background: #eee;
+  transition: 0.5s;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -60,5 +60,10 @@ $dark-color : #000;
             }
         }
 
+        a:hover li {
+            background: $bright-color;
+            transition: .5s;
+        }
+
     }
 }
