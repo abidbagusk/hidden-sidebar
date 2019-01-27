@@ -172,6 +172,16 @@ $dark-color : #000;
     }
 }
 
+// this class will be activated when user activate dark mode{
+.dark-mode {
+
+    .wrapper-list,
+    #main,
+    .content {
+        background: $dark-color;
+    }
+}
+
 /* Content */
 .content {
     height: 100vh;

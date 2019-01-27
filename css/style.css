@@ -136,6 +136,12 @@
   border-radius: 50%;
 }
 
+.dark-mode .wrapper-list,
+.dark-mode #main,
+.dark-mode .content {
+  background: #000;
+}
+
 /* Content */
 .content {
   height: 100vh;
